@@ -1,0 +1,11 @@
+remote_theme: pages-themes/tactile@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: sertest-NG - A swiss knife serial testing tool
+description: An advance  RS-232, RS-422/485 and CAN bus USB Adapter
+show_downloads: true
+
+github:
+  zip_url: downloads/fabrication.zip
+  tar_url: downloads/fabrication.tar.gz
