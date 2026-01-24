@@ -3785,7 +3785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P2T_Toggle_CK_PVA2xxH1xxxxxxV2"
+		(property "Footprint" "fixes:SW_Push_2P2T_Toggle_CK_PVA2xxH1xxxxxxV2"
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree"
+		(property "Footprint" "fixes:TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 78.74 46.482 0)
 			(effects
 				(font
@@ -6560,7 +6560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 53.34 46.482 0)
 			(effects
 				(font

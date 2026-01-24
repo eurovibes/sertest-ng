@@ -6072,7 +6072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 241.3 148.082 0)
 			(effects
 				(font
@@ -6211,7 +6211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 215.9 148.082 0)
 			(effects
 				(font
@@ -6815,7 +6815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 215.9 97.282 0)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 62.23 46.482 0)
 			(effects
 				(font
@@ -7952,7 +7952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 114.3 46.482 0)
 			(effects
 				(font
@@ -8355,7 +8355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 241.3 97.282 0)
 			(effects
 				(font
@@ -8826,7 +8826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 215.9 46.482 0)
 			(effects
 				(font
@@ -9163,7 +9163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 139.7 46.482 0)
 			(effects
 				(font
@@ -11841,7 +11841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 165.1 46.482 0)
 			(effects
 				(font
@@ -12155,7 +12155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 36.83 46.482 0)
 			(effects
 				(font
@@ -12560,7 +12560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 88.9 46.482 0)
 			(effects
 				(font
@@ -14097,7 +14097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 241.3 46.482 0)
 			(effects
 				(font
@@ -14904,7 +14904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 190.5 46.482 0)
 			(effects
 				(font
@@ -15444,7 +15444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
+		(property "Footprint" "fixes:LED_Kingbright_AAA3528ESGCT"
 			(at 266.7 46.482 0)
 			(effects
 				(font
@@ -16049,7 +16049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-404_1x04_P5.00mm_45Degree"
+		(property "Footprint" "fixes:TerminalBlock_WAGO_236-404_1x04_P5.00mm_45Degree"
 			(at 187.96 137.16 0)
 			(effects
 				(font
