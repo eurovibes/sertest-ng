@@ -3,7 +3,7 @@ Row,References,Part,Value,P/N,Manufacture,Source,Supplier P/N,Link,Footprint,Des
 2,C106,C_Polarized,1 F,,,TME,,https://www.tme.eu/en/details/scv1f-3.0v-ltz/supercapacitors/spscap/scv0001c0-003r0ltz/,CP_Radial_D8.0mm_P3.50mm,Polarized capacitor,1
 3,D101,1N4148W,1N4148WS,,,JLCPCB,,https://jlcpcb.com/partdetail/2485-1N4148WS/C2128,D_SOD-323,"75V 0.15A Fast Switching Diode, SOD-123",1
 4,D102 D103 D104 D105 D106 D301,LED,LED,KT-0603R,Hubei KENTO Elec,JLCPCB,,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,LED_0603_1608Metric,Light emitting diode,6
-5,D201 D202 D203 D204 D205 D206 D207 D208 D209 D210 D211 D212 D213 D214 D401 D402,LED_Dual_AAKK,RI,,,JLCPCB,,https://jlcpcb.com/partdetail/TOGIALED-TJ_S3528UG1W9TLC2R2GA5/C601701,LED_Kingbright_AAA3528ESGCT,"Dual LED, cathodes on pins 3 and 4",16
+5,D201 D202 D203 D204 D205 D206 D207 D208 D209 D210 D211 D212 D213 D214 D401 D402,LED_Dual_KAAK,RI,,,JLCPCB,,https://jlcpcb.com/partdetail/TOGIALED-TJ_S3528UG1W9TLC2R2GA5/C601701,LED_Kingbright_AAA3528ESGCT,"Dual LED, cathodes on pins 1 and 4",16
 6,J401,DE9_Pins_MountingHoles,CAN,,,,,,DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm,"9-pin D-SUB connector, pins (male), Mounting Hole",1
 7,J402,Conn_01x02,CAN,236-402,WAGO Corporation,,2946-236-402-ND,,TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",1
 8,J201 J202,DE9_Socket_MountingHoles,Debug,,,,,,DSUB-9_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm,"9-pin D-SUB connector, socket (female), Mounting Hole",2
