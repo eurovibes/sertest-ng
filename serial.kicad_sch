@@ -979,284 +979,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Dual_AAKK"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Dual_AAKK"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.762 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.762 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual LED, cathodes on pins 3 and 4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode bicolor dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Dual_AAKK_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 2.032 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 2.032 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Dual_AAKK_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.048)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.048)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2898,6 +2620,284 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "led:LED_Dual_KAAK"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_KAAK"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, cathodes on pins 1 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_KAAK_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Dual_KAAK_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.048)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6045,7 +6045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 241.3 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6090,7 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -6184,7 +6184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 215.9 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6229,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 215.9 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6833,7 +6833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -7720,7 +7720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 62.23 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7765,7 +7765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -7925,7 +7925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 114.3 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7970,7 +7970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 241.3 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8373,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 241.3 96.52 0)
 			(effects
 				(font
@@ -8799,7 +8799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 215.9 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8844,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 215.9 45.72 0)
 			(effects
 				(font
@@ -9136,7 +9136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 139.7 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9181,7 +9181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -11814,7 +11814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 165.1 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11859,7 +11859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 165.1 45.72 0)
 			(effects
 				(font
@@ -12128,7 +12128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 36.83 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12173,7 +12173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 36.83 45.72 0)
 			(effects
 				(font
@@ -12238,6 +12238,24 @@
 		)
 		(property "lcsc#" " C601701"
 			(at 36.83 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tme#" ""
+			(at 36.83 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 88.9 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12578,7 +12596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -14070,7 +14088,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 241.3 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14115,7 +14133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -14877,7 +14895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 190.5 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14922,7 +14940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -15417,7 +15435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
+		(lib_id "led:LED_Dual_KAAK")
 		(at 266.7 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15462,7 +15480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+		(property "Description" "Dual LED, cathodes on pins 1 and 4"
 			(at 266.7 45.72 0)
 			(effects
 				(font
