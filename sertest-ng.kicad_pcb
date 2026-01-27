@@ -20491,7 +20491,7 @@
 				)
 			)
 		)
-		(property "Long Description" "1uF 25V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Long Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20517,7 +20517,7 @@
 				)
 			)
 		)
-		(property "MP" "CL05A105KA5NQNC"
+		(property "MP" "CL10A105KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20530,7 +20530,7 @@
 				)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20543,7 +20543,7 @@
 				)
 			)
 		)
-		(property "lcsc#" "C52923"
+		(property "lcsc#" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33807,7 +33807,7 @@
 				)
 			)
 		)
-		(property "Long Description" "1uF 25V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Long Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33833,7 +33833,7 @@
 				)
 			)
 		)
-		(property "MP" "CL05A105KA5NQNC"
+		(property "MP" "CL10A105KB8NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33846,7 +33846,7 @@
 				)
 			)
 		)
-		(property "SupplLink" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "SupplLink" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33859,7 +33859,7 @@
 				)
 			)
 		)
-		(property "lcsc#" "C52923"
+		(property "lcsc#" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
