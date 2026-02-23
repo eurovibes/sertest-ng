@@ -8582,7 +8582,7 @@
 		(uuid "0067438c-c317-47e9-9209-ce20d9e4bf4a")
 	)
 	(label "USART1_TX"
-		(at 226.06 134.62 180)
+		(at 226.06 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9042,7 +9042,7 @@
 		(uuid "8452a864-21b4-493a-8c7e-e3350db41ab3")
 	)
 	(label "USART1_RX"
-		(at 226.06 132.08 180)
+		(at 226.06 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
