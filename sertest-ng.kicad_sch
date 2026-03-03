@@ -8842,7 +8842,7 @@
 		(uuid "523a213b-6913-4297-b18b-cdd088d0c9fe")
 	)
 	(label "USB_DM"
-		(at 82.55 149.86 0)
+		(at 82.55 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9052,7 +9052,7 @@
 		(uuid "845d5e52-9796-4004-84b9-1b04abb4cb4c")
 	)
 	(label "USB_DP"
-		(at 82.55 152.4 0)
+		(at 82.55 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
