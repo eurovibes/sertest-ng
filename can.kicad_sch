@@ -3900,7 +3900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1a08c3-cafd-4d46-875d-61921b6822f4")
-		(property "Reference" "R407"
+		(property "Reference" "R408"
 			(at 214.63 93.98 90)
 			(effects
 				(font
@@ -4057,7 +4057,7 @@
 			)
 			(project "sertest-ng"
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "R407")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -4073,7 +4073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63f8121b-50b1-4f28-80b3-9b4a818bd5aa")
-		(property "Reference" "JP403"
+		(property "Reference" "JP401"
 			(at 115.57 105.4099 90)
 			(effects
 				(font
@@ -4154,7 +4154,7 @@
 		(instances
 			(project ""
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "JP403")
+					(reference "JP401")
 					(unit 1)
 				)
 			)
@@ -4170,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75a9db95-f4fc-407e-a222-ffb77634696f")
-		(property "Reference" "R408"
+		(property "Reference" "R406"
 			(at 172.72 96.5199 0)
 			(effects
 				(font
@@ -4329,7 +4329,7 @@
 			)
 			(project "sertest-ng"
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "R408")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -4418,7 +4418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84b146b4-14a4-43af-837e-a21ac7d00eb0")
-		(property "Reference" "JP402"
+		(property "Reference" "JP403"
 			(at 228.6 101.6 0)
 			(effects
 				(font
@@ -4500,7 +4500,7 @@
 		(instances
 			(project "sertest-ng"
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "JP402")
+					(reference "JP403")
 					(unit 1)
 				)
 			)
@@ -4781,7 +4781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d9fbb0-09cf-43a3-819e-f6761fcc17ae")
-		(property "Reference" "R406"
+		(property "Reference" "R405"
 			(at 172.72 83.8199 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 			)
 			(project "sertest-ng"
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "R406")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae5e3c6-66f3-4503-8909-5c7c21bb4ce3")
-		(property "Reference" "JP401"
+		(property "Reference" "JP402"
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 		(instances
 			(project ""
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "JP401")
+					(reference "JP402")
 					(unit 1)
 				)
 			)
@@ -5186,7 +5186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b159e9d7-c230-4fe3-9f00-1dceb05f26d5")
-		(property "Reference" "R405"
+		(property "Reference" "R407"
 			(at 214.63 81.534 90)
 			(effects
 				(font
@@ -5343,7 +5343,7 @@
 			)
 			(project "sertest-ng"
 				(path "/9a3cad5d-0a7b-485e-a592-d3e508a0fc7b/1741690d-1b44-488b-a373-15edd4d8ea4f"
-					(reference "R405")
+					(reference "R407")
 					(unit 1)
 				)
 			)
