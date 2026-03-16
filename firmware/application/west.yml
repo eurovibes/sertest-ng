@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: cryptoauthlib
+      url-base: https://github.com/MicrochipTech
+    - name: eurovibes
+      url-base: https://github.com/eurovibes
+  projects:
+    - name: zephyr
+      remote: eurovibes
+      revision: 8eb45841856ee0cc59c78e91b3b2ccd809eeefe5
+      import: true
+    - name: cryptoauthlib
+      remote: cryptoauthlib
+      revision: v3.7.9
+  self:
+    path: application

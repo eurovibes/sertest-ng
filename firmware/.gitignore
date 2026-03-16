@@ -1,0 +1,13 @@
+.*
+!.gitignore
+
+*~
+\#*#
+
+bootloader/
+build/
+cryptoauthlib/
+modules/
+tools/
+venv/
+zephyr/
