@@ -12,14 +12,14 @@ Row,References,Part,Value,P/N,Manufacture,Source,Supplier P/N,Link,Footprint,Des
 11,JP401,Jumper_2_Open,CAN_GND,,,,,,PinHeader_1x02_P2.54mm_Vertical,"Jumper, 2-pole, open",1
 12,R405 R406,R,60 Ω,1206W4F604JT5E,UNI-ROYAL(Uniroyal Elec),JLCPCB,,https://jlcpcb.com/partdetail/58608-1206W4F604JT5E/C57572,R_1206_3216Metric,Resistor,2
 13,R407 R408,R,100 Ω,0402WGF1000TCE,UNI-ROYAL(Uniroyal Elec),JLCPCB,,https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076,R_0402_1005Metric,Resistor,2
-14,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R201 R202 R203 R204 R205 R206 R207 R208 R209 R210 R211 R212 R213 R214 R215 R216 R217 R218 R219 R220 R221 R222 R223 R224 R225 R226 R227 R228 R229 R230 R231 R232 R301 R302 R303 R401 R402 R403 R404,R,1 kΩ,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),JLCPCB,,https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702 https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905 https://jlcpcb.com/partdetail/26826-0402WGF1004TCE/C26083 https://jlcpcb.com/partdetail/18646-1206W4F220JT5E/C17958 https://jlcpcb.com/partdetail/25848-0402WGF330JTCE/C25105 https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744 https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168,R_0402_1005Metric,Resistor,54
+14,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R201 R202 R203 R204 R205 R206 R207 R208 R209 R210 R211 R212 R213 R214 R215 R216 R217 R218 R219 R220 R221 R222 R223 R224 R225 R226 R227 R228 R229 R230 R231 R232 R301 R302 R303 R401 R402 R403 R404,R,1 kΩ,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),JLCPCB,,https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702 https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905 https://jlcpcb.com/partdetail/26826-0402WGF1004TCE/C26083 https://jlcpcb.com/partdetail/18646-1206W4F220JT5E/C17958 https://jlcpcb.com/partdetail/25848-0402WGF330JTCE/C25105 https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744 https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168,R_0402_1005Metric,Resistor,55
 15,SW101,SW_Push,Reset,TACT-65R-F,NINIGI,,,,SW_PUSH_6mm,"Push button switch, generic, two pins",1
 16,SW401,SW_Push_DPDT,Term,TL2202EEZB (GRN ACT),E-Switch,,141-TL2202EEZB(GRNACT)-ND,,SW_Push_2P2T_Toggle_CK_PVA2xxH1xxxxxxV2,"Momentary Switch, dual pole double throw",1
 17,U201,ADM213,ADM213,,,JLCPCB,,https://jlcpcb.com/partdetail/MaxLinear-SP213EEA_LTR/C415725,SSOP-28_5.3x10.2mm_P0.65mm,"0.1 μF, 5V powered CMOS RS-232 120kb/s transceiver with 4 drivers and 5 receivers (tx/rx: 4/5; 2 receivers active in shutdown), shutdown / enable pins, SOIC-28 / SSOP-28",1
 18,U105,AMS1117-3.3,AMS1117-3.3,,,JLCPCB,,https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186,SOT-223-3_TabPin2,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",1
 19,U104,ATECC608B-MAHDA,ATECC608B-MAVDA-S,ATECC608B-MAVDA-S,Microchip Tech,JLCPCB,,https://jlcpcb.com/partdetail/MicrochipTech-ATECC608B_MAHDAT/C17561150,DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm,"Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8",1
 20,U303,CH340N,CH340N,CH340N,WCH(Jiangsu Qin Heng),JLCPCB,,https://jlcpcb.com/partdetail/TorexSemicon-XC6206P332MRG/C5446,JEITA_SOIC-8_3.9x4.9mm_P1.27mm,"USB serial converter, 2Mbps, UART, JEITA SOIC-8 (SOP-8)",1
-21,U101,M24C02-RMN,M24C64-RMN,,,JLCPCB,,https://jlcpcb.com/partdetail/STMicroelectronics-M24C64RMN6TP/C79988,SOIC-8_3.9x4.9mm_P1.27mm,"2Kb (256x8) I2C Serial EEPROM, 1.8-5.5V, SOIC-8",1
+21,U101 U106,M24C02-RMN,M24C64-RMN,,,JLCPCB,,https://jlcpcb.com/partdetail/STMicroelectronics-M24C64RMN6TP/C79988,SOIC-8_3.9x4.9mm_P1.27mm,"2Kb (256x8) I2C Serial EEPROM, 1.8-5.5V, SOIC-8",2
 22,U202,SP330,SP330,,,JLCPCB,,https://jlcpcb.com/partdetail/MaxLinear-SP330EEY_LTR/C916084,TSSOP-24_4.4x7.8mm_P0.65mm,RS-232/RS-485/RS-422 Transceiver with 1.65V-5.5V Interface,1
 23,U103,STM32G431RBTx,STM32G431RBTx,,,JLCPCB,,https://jlcpcb.com/partdetail/STMicroelectronics-STM32G431RBT6/C431633,LQFP-64_10x10mm_P0.5mm,"STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64",1
 24,U401,TJA1042T,TJA1042T,TJA1042T/1J,NXP Semicon,JLCPCB,,https://jlcpcb.com/partdetail/NXPSemicon-TJA1042T1J/C53670,SOIC-8_3.9x4.9mm_P1.27mm,"High-Speed CAN Transceiver, standby mode, split pin, SOIC-8",1
@@ -39,7 +39,7 @@ Date:,2025-12-09
 KiCad Version:,9.0.7+1
 Statistics:
 Component Groups:,27
-Component Count:,133
-Fitted Components:,133
+Component Count:,135
+Fitted Components:,135
 Number of PCBs:,1
-Total Components:,133
+Total Components:,135

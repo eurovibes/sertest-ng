@@ -1,5 +1,5 @@
 Drill report for sertest-ng.kicad_pcb
-Created on 2026-03-14T14:56:14+0000
+Created on 2026-03-21T02:30:11+0000
 
 Copper Layer Stackup:
     =============================================================
@@ -12,7 +12,7 @@ Copper Layer Stackup:
 Drill file 'sertest-ng-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (150 holes)
+    T1  0.300mm  0.0118"  (153 holes)
     T2  0.600mm  0.0236"  (8 holes)  (with 8 slots)
     T3  0.800mm  0.0315"  (2 holes)
     T4  0.900mm  0.0354"  (6 holes)
@@ -21,7 +21,7 @@ Drill file 'sertest-ng-PTH.drl' contains
     T7  1.150mm  0.0453"  (12 holes)
     T8  3.200mm  0.1260"  (10 holes)
 
-    Total plated holes count 221
+    Total plated holes count 224
 
 
 Drill file 'sertest-ng-NPTH.drl' contains
