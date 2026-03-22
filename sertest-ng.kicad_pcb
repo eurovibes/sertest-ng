@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Serial Tester")
-		(date "09.12.2025")
-		(rev "0.1")
+		(date "2026-03-22")
+		(rev "0.2")
 		(company "Eurovibes / Benedikt Spranger")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
 		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
@@ -49730,7 +49730,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d693e9fe-ceab-4502-a83e-52c480edeab9")
 	)
-	(gr_text "serttest-NG v0.1\nBenedikt Spranger"
+	(gr_text "serttest-NG v0.2\nBenedikt Spranger"
 		(at 100 179 0)
 		(layer "F.Cu")
 		(uuid "1aa4cd2f-3908-4434-ad15-dd8937030384")
