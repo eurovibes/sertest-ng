@@ -9,6 +9,10 @@ manifest:
       remote: eurovibes
       revision: 8eb45841856ee0cc59c78e91b3b2ccd809eeefe5
       import: true
+    - name: cannectivity
+      url: https://github.com/CANnectivity/cannectivity.git
+      revision: main
+      path: cannectivity
     - name: cryptoauthlib
       remote: cryptoauthlib
       revision: v3.7.9

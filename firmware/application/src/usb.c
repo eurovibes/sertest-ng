@@ -8,8 +8,11 @@
 #include <zephyr/drivers/uart/uart_bridge.h>
 #include <zephyr/logging/log.h>
 #include <zephyr/usb/bos.h>
+#include <zephyr/usb/msos_desc.h>
 #include <zephyr/usb/usb_device.h>
 #include <zephyr/usb/usbd.h>
+
+#include <cannectivity/usb/class/gs_usb.h>
 
 #include "sertest-ng.h"
 
@@ -50,6 +53,104 @@ static const struct usb_bos_capability_lpm bos_cap_lpm = {
 	.bmAttributes = 0UL,
 };
 USBD_DESC_BOS_DEFINE(usbext, sizeof(bos_cap_lpm), &bos_cap_lpm);
+
+struct cannectivity_msosv2_descriptor {
+	struct msosv2_descriptor_set_header header;
+	struct msosv2_compatible_id gs_usb_compatible_id;
+	struct msosv2_guids_property gs_usb_guids_property;
+	struct msosv2_vendor_revision gs_usb_vendor_revision;
+} __packed;
+
+#define COMPATIBLE_ID_WINUSB 'W', 'I', 'N', 'U', 'S', 'B', 0x00, 0x00
+
+#define CANNECTIVITY_GS_USB_DEVICE_INTERFACE_GUID \
+	'{', 0x00, 'B', 0x00, '2', 0x00, '4', 0x00, 'D', 0x00, '8', 0x00, \
+	'3', 0x00, '7', 0x00, '9', 0x00, '-', 0x00, '2', 0x00, '3', 0x00, \
+	'5', 0x00, 'F', 0x00, '-', 0x00, '4', 0x00, '8', 0x00, '5', 0x00, \
+	'3', 0x00, '-', 0x00, '9', 0x00, '5', 0x00, 'E', 0x00, '7', 0x00, \
+	'-', 0x00, '7', 0x00, '7', 0x00, '7', 0x00, '2', 0x00, '5', 0x00, \
+	'1', 0x00, '6', 0x00, 'F', 0x00, 'A', 0x00, '2', 0x00, 'D', 0x00, \
+	'5', 0x00, '}', 0x00, 0x00, 0x00
+
+static const struct cannectivity_msosv2_descriptor msosv2_descriptor = {
+	.header = {
+		.wLength = sizeof(struct msosv2_descriptor_set_header),
+		.wDescriptorType = MS_OS_20_SET_HEADER_DESCRIPTOR,
+		/* Windows version (8.1) (0x06030000) */
+		.dwWindowsVersion = 0x06030000,
+		.wTotalLength = sizeof(struct cannectivity_msosv2_descriptor),
+	},
+	.gs_usb_compatible_id = {
+		.wLength = sizeof(struct msosv2_compatible_id),
+		.wDescriptorType = MS_OS_20_FEATURE_COMPATIBLE_ID,
+		.CompatibleID = {COMPATIBLE_ID_WINUSB},
+	},
+	.gs_usb_guids_property = {
+		.wLength = sizeof(struct msosv2_guids_property),
+		.wDescriptorType = MS_OS_20_FEATURE_REG_PROPERTY,
+		.wPropertyDataType = MS_OS_20_PROPERTY_DATA_REG_MULTI_SZ,
+		.wPropertyNameLength = 42,
+		.PropertyName = {DEVICE_INTERFACE_GUIDS_PROPERTY_NAME},
+		.wPropertyDataLength = 80,
+		.bPropertyData = {CANNECTIVITY_GS_USB_DEVICE_INTERFACE_GUID},
+	},
+	.gs_usb_vendor_revision = {
+		.wLength = sizeof(struct msosv2_vendor_revision),
+		.wDescriptorType = MS_OS_20_FEATURE_VENDOR_REVISION,
+		.VendorRevision = 1U,
+	},
+};
+
+struct usb_bos_capability_msosv2 {
+	struct usb_bos_platform_descriptor platform;
+	struct usb_bos_capability_msos cap;
+} __packed;
+
+
+static struct usb_bos_capability_msosv2 bos_cap_msosv2 = {
+	.platform = {
+		.bLength = sizeof(struct usb_bos_capability_msosv2),
+		.bDescriptorType = USB_DESC_DEVICE_CAPABILITY,
+		.bDevCapabilityType = USB_BOS_CAPABILITY_PLATFORM,
+		.bReserved = 0,
+		.PlatformCapabilityUUID = {
+			/* MS OS 2.0 Platform Capability ID: D8DD60DF-4589-4CC7-9CD2-659D9E648A9F */
+			0xDF, 0x60, 0xDD, 0xD8,
+			0x89, 0x45,
+			0xC7, 0x4C,
+			0x9C, 0xD2,
+			0x65, 0x9D, 0x9E, 0x64, 0x8A, 0x9F,
+		},
+	},
+	.cap = {
+		/* Windows version (8.1) (0x06030000) */
+		.dwWindowsVersion = sys_cpu_to_le32(0x06030000),
+		.wMSOSDescriptorSetTotalLength =
+			sys_cpu_to_le16(sizeof(struct cannectivity_msosv2_descriptor)),
+		.bMS_VendorCode = GS_USB_MS_VENDORCODE,
+		.bAltEnumCode = 0x00
+	},
+};
+
+static int vendorcode_handler(const struct usbd_context *const ctx,
+			      const struct usb_setup_packet *const setup,
+			      struct net_buf *const buf)
+{
+	size_t len = bos_cap_msosv2.cap.wMSOSDescriptorSetTotalLength;
+
+	if (setup->bRequest == GS_USB_MS_VENDORCODE &&
+	    setup->wIndex == MS_OS_20_DESCRIPTOR_INDEX) {
+		net_buf_add_mem(buf, &msosv2_descriptor,
+				MIN(net_buf_tailroom(buf), len));
+
+		return 0;
+	}
+
+	return -ENOTSUP;
+}
+
+USBD_DESC_BOS_VREQ_DEFINE(msosv2, sizeof(bos_cap_msosv2), &bos_cap_msosv2,
+			  GS_USB_MS_VENDORCODE, vendorcode_handler, NULL);
 
 struct usbd_context *usbd_setup_device(usbd_msg_cb_t msg_cb)
 {
@@ -104,11 +205,21 @@ struct usbd_context *usbd_setup_device(usbd_msg_cb_t msg_cb)
 		}
 	}
 
-	(void)usbd_device_set_bcd_usb(&usbd_ctx, USBD_SPEED_FS, 0x0201);
+	err = usbd_device_set_bcd_usb(&usbd_ctx, USBD_SPEED_FS, USB_SRN_2_0_1);
+	if (err) {
+		LOG_ERR("failed to set full-speed bcdUSB (err %d)", err);
+		return NULL;
+	}
 
 	err = usbd_add_descriptor(&usbd_ctx, &usbext);
 	if (err) {
 		LOG_ERR("Failed to add USB 2.0 Extension Descriptor");
+		return NULL;
+	}
+
+	err = usbd_add_descriptor(&usbd_ctx, &msosv2);
+	if (err) {
+		LOG_ERR("failed to add Microsoft OS 2.0 descriptor (err %d)", err);
 		return NULL;
 	}
 
