@@ -19,28 +19,28 @@ interface. On top a RX/TX only RS-232 is equipped.
 
 ### Schematic
 
-Link to the [Schematic](https://eurovibes.github.io/sertest-ng/Fabrication/sertest-ng-schematic_0.1.pdf).
+Link to the [Schematic](https://eurovibes.github.io/sertest-ng/Fabrication/sertest-ng-schematic_0.2.pdf).
 
 ### Layout
 
 #### Top
-![Top Layer](https://eurovibes.github.io/sertest-ng/Fabrication/PCB/blue/sertest-ng-top_0.1.jpg)
+![Top Layer](https://eurovibes.github.io/sertest-ng/Fabrication/PCB/blue/sertest-ng-top_0.2.jpg)
 
 #### Bottom
-![Bottom Layer](https://eurovibes.github.io/sertest-ng/Fabrication/PCB/blue/sertest-ng-bottom_0.1.jpg)
+![Bottom Layer](https://eurovibes.github.io/sertest-ng/Fabrication/PCB/blue/sertest-ng-bottom_0.2.jpg)
 
 ### BoM
-sertest-ng provides am [interactive BoM](https://eurovibes.github.io/sertest-ng/Fabrication/BoM/sertest-ng-ibom_0.1.html).
+sertest-ng provides am [interactive BoM](https://eurovibes.github.io/sertest-ng/Fabrication/BoM/sertest-ng-ibom_0.2.html).
 
 ## Fabrication
 **sertest-ng** provides generic gerber files and fabrication data for JLCPCB and
 Seeed Fusion PCB.
 
 ### JLCPCB
-Fabrication files for [JLCPCB](https://eurovibes.github.io/sertest-ng/Fabrication/JLCPCB/sertest-ng-JLCPCB_0.1.zip).
+Fabrication files for [JLCPCB](https://eurovibes.github.io/sertest-ng/Fabrication/JLCPCB/sertest-ng-JLCPCB_0.2.zip).
 
 ### Seeed Fusion PCB
-Fabrication files for [Seeed Fusion PCB](https://eurovibes.github.io/sertest-ng/Fabrication/FusionPCB/sertest-ng-FusionPCB_0.1.zip).
+Fabrication files for [Seeed Fusion PCB](https://eurovibes.github.io/sertest-ng/Fabrication/FusionPCB/sertest-ng-FusionPCB_0.2.zip).
 
 ## License rules
 
@@ -60,7 +60,7 @@ The SPDX license identifier is added in form of a comment.
 
 ## Copyright and License
 
-> Copyright Benedikt Spranger 2025.  
+> Copyright Benedikt Spranger 2025-2026.
 > This source describes Open Hardware and is licensed under the CERNOHL-S v2.  
 > You may redistribute and modify this source and make products using it
 > under the terms of the [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt).  
